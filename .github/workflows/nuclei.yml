@@ -1,5 +1,0 @@
-      - name: Nuclei - DAST Scan
-        uses: projectdiscovery/nuclei-action@main
-        with:
-          target: worldbank.org
-          templates: nuclei-templates/blob/master/takeovers/aws-bucket-takeover.yaml
