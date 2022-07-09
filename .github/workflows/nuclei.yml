@@ -14,4 +14,4 @@ jobs:
         uses: projectdiscovery/nuclei-action@main
         with:
           target: worldbank.org
-          templates: https://github.com/projectdiscovery/nuclei-templates/blob/master/takeovers/aws-bucket-takeover.yaml
+          templates: https://raw.githubusercontent.com/projectdiscovery/nuclei-templates/master/takeovers/aws-bucket-takeover.yaml
